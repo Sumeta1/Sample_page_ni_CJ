@@ -1,0 +1,125 @@
+body {
+    font-size: 15px;
+    font-family: Arial;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #A2D2FD, #8DE0FE, #FFAFCC, #FFC8DD, #CDB4DB);
+}
+
+div#button a{
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 150px;
+    background: #A2D2FD;
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    align-content: center;
+    box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.2);
+    border-top: 1px solid white;
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+h3 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+    text-shadow: 0px 3px 5px white;
+}
+
+h6 {
+    text-align: center;
+}
+
+div.img {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 60%;
+    height: 350px;
+    margin: 30px auto;
+    box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.4);
+    
+    img {
+        width: 100%;
+        position: relative;
+        top: -90px;
+    }
+    
+    p {
+        position: relative;
+        background: black;
+        color: white;
+        top: -480px;
+        width: 100%;
+        border-bottom: 1px solid white;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+
+div.circle {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 30px auto;
+    border-top: 3px solid pink;
+    box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.4);
+    
+    img {
+        width: 100%;
+        position: relative;
+        top: -120px;
+        left: -10px;
+    }
+}
+
+hr {
+    background: pink;
+    border: 0.5 solid pink;
+    margin: 50px auto;
+    width: 80%;
+}
+
+div.text {
+    width: 80%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px auto;
+    box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.2);
+    
+    p {
+        text-align: justify ;
+        line-height: 20px;
+    }
+}
+
+div.End p {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px 10px 70px 10px;
+    text-align: justify;
+}
+
+.frame div {
+    animation: fade linear;
+    animation-timeline: view(90% -10%);
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

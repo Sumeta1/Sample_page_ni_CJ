@@ -1,0 +1,59 @@
+body {
+    font-size: 15px;
+    font-family: Arial;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #A2D2FD, #8DE0FE, #FFAFCC, #FFC8DD, #CDB4DB);
+}
+
+img {
+    width: 170px;
+    display: block;
+    margin: 30px auto;
+}
+
+p#isa {
+    font-family: cursive;
+    word-spacing: 3px;
+    text-align: center;
+    font-size: 30px;
+    margin: 60px 0px;
+}
+
+p#dalwa, p#tatlo {
+    margin: 30px auto;
+    text-align: center;
+}
+
+div#button a {
+    display: block;
+    margin: 70px auto;
+    background: #A2D2FD;
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    align-content: center;
+    box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.2);
+    border-top: 1px solid white;
+    text-decoration: none;
+    color: black;
+    
+}
+
+#dalwa {
+    background: white;
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.2);
+}
+
+#tatlo {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px ;
+    text-align: center;
+    width: 70%;
+}
